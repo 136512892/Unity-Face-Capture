@@ -1,0 +1,1165 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.16f1c1 (52703c1271a5) revision 5402684'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.1415; Version 2004; 64bit' Language: 'zh' Physical Memory: 32605 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.16f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProjects/LiveCapture
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56266
+Successfully changed project path to: D:/UnityProjects/LiveCapture
+D:/UnityProjects/LiveCapture
+Using Asset Import Pipeline V2.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 20.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.16f1c1 (52703c1271a5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/LiveCapture/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   
+    VRAM:     8041 MB
+    Driver:   30.0.15.1172
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003353 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 20.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.838 seconds
+Domain Reload Profiling:
+	ReloadAssembly (838ms)
+		BeginReloadAssembly (40ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (283ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (96ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (112ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (20ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (57ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002264 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Domain Reload Profiling:
+	ReloadAssembly (935ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (786ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (464ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (382ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.9 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1831.
+Total: 2.135200 ms (FindLiveObjects: 0.095600 ms CreateObjectMapping: 0.027900 ms MarkObjects: 1.966300 ms  DeleteObjects: 0.044400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Plugins
+  artifactKey: Guid(6c3e2767add757444b51b9e02b99a732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(6c3e2767add757444b51b9e02b99a732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbf93a4f1622dcfb4fbf53c4c556e3e') in 0.003359 seconds 
+  Import took 0.005128 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002446 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.60 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Domain Reload Profiling:
+	ReloadAssembly (946ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (796ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (453ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (371ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.6 MB.
+System memory in use after: 78.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2278.
+Total: 2.190400 ms (FindLiveObjects: 0.106800 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.972900 ms  DeleteObjects: 0.075400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11.609627 seconds.
+  path: Assets/Plugins/LiveCapture
+  artifactKey: Guid(4ac15e3007e7ca64c86642ac9972e340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture using Guid(4ac15e3007e7ca64c86642ac9972e340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7195c34563b2fbb3a89c9d438cc780') in 0.003723 seconds 
+  Import took 0.005945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.314396 seconds.
+  path: Assets/Plugins/LiveCapture/Samples
+  artifactKey: Guid(d3e9147c93b64de4ab35fcc74966cc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples using Guid(d3e9147c93b64de4ab35fcc74966cc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cbc215e16c68c8ec7e4d8550321379') in 0.001632 seconds 
+  Import took 0.003586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.268597 seconds.
+  path: Assets/Plugins/LiveCapture/Runtime
+  artifactKey: Guid(d3a034ceda120f343a99531d5b2d93b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Runtime using Guid(d3a034ceda120f343a99531d5b2d93b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b79b3d284340ddc82424251f2ddcc97') in 0.001258 seconds 
+  Import took 0.003264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.318901 seconds.
+  path: Assets/Plugins/LiveCapture/Runtime/VirtualCamera
+  artifactKey: Guid(8e318145cb9074afa9a05a477e87cde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Runtime/VirtualCamera using Guid(8e318145cb9074afa9a05a477e87cde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa039e942714430a185c9e0fbe65cd12') in 0.001245 seconds 
+  Import took 0.003223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.586520 seconds.
+  path: Assets/Plugins/LiveCapture/Runtime/CompanionApp
+  artifactKey: Guid(64756058f3e93e641926e9e74224c6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Runtime/CompanionApp using Guid(64756058f3e93e641926e9e74224c6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c3fcad66c142a7debe911c7c00f87a') in 0.001210 seconds 
+  Import took 0.003188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.292924 seconds.
+  path: Assets/Plugins/LiveCapture/Runtime/CompanionApp/Data
+  artifactKey: Guid(fb967962b12a02544ac5722171c4dd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Runtime/CompanionApp/Data using Guid(fb967962b12a02544ac5722171c4dd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e3629d2733deaf6362fd1e97379671') in 0.001655 seconds 
+  Import took 0.003632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.563260 seconds.
+  path: Assets/Plugins/LiveCapture/Runtime/CompanionApp/TakeManager.cs
+  artifactKey: Guid(484bb87ff772f724fae66af769e64755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Runtime/CompanionApp/TakeManager.cs using Guid(484bb87ff772f724fae66af769e64755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7133aaebec7ad3f5a6f12da2e1108b6d') in 0.012915 seconds 
+  Import took 0.014958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014374 seconds.
+  path: Assets/Plugins/LiveCapture/Runtime/CompanionApp/TakeManager.cs
+  artifactKey: Guid(484bb87ff772f724fae66af769e64755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Runtime/CompanionApp/TakeManager.cs using Guid(484bb87ff772f724fae66af769e64755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7133aaebec7ad3f5a6f12da2e1108b6d') in 0.001185 seconds 
+  Import took 0.003119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.426621 seconds.
+  path: Assets/Plugins/LiveCapture/Runtime/CompanionApp/TimestampTracker.cs
+  artifactKey: Guid(29bd7814db3ec4b4d923b9346673f852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Runtime/CompanionApp/TimestampTracker.cs using Guid(29bd7814db3ec4b4d923b9346673f852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b5eee3740c765abfab75f044b400ac') in 0.001205 seconds 
+  Import took 0.003185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001068 seconds.
+  path: Assets/Plugins/LiveCapture/Runtime/CompanionApp/TimestampTracker.cs
+  artifactKey: Guid(29bd7814db3ec4b4d923b9346673f852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Runtime/CompanionApp/TimestampTracker.cs using Guid(29bd7814db3ec4b4d923b9346673f852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b5eee3740c765abfab75f044b400ac') in 0.001168 seconds 
+  Import took 0.002969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.528625 seconds.
+  path: Assets/Plugins/LiveCapture/Runtime/CompanionApp/ClientTimeEstimator.cs
+  artifactKey: Guid(02bdc5265f74414ab538e396b8dcccc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Runtime/CompanionApp/ClientTimeEstimator.cs using Guid(02bdc5265f74414ab538e396b8dcccc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499ddd797fce8b35bda93cc378c57960') in 0.001246 seconds 
+  Import took 0.003247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.229967 seconds.
+  path: Assets/Plugins/LiveCapture/Runtime/CompanionApp/CompanionAppDevice.cs
+  artifactKey: Guid(b6f3eab43773c504fafc9241ae1c990a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Runtime/CompanionApp/CompanionAppDevice.cs using Guid(b6f3eab43773c504fafc9241ae1c990a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a04d34a385d4bc56f810018ed371391') in 0.001644 seconds 
+  Import took 0.003667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002200 seconds.
+  path: Assets/Plugins/LiveCapture/Runtime/CompanionApp/CompanionAppDevice.cs
+  artifactKey: Guid(b6f3eab43773c504fafc9241ae1c990a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Runtime/CompanionApp/CompanionAppDevice.cs using Guid(b6f3eab43773c504fafc9241ae1c990a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a04d34a385d4bc56f810018ed371391') in 0.001148 seconds 
+  Import took 0.003008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.462985 seconds.
+  path: Assets/Plugins/LiveCapture/Runtime/CompanionApp/CompanionAppServer.cs
+  artifactKey: Guid(ee59ae9fe5e5d584e997be09d955d0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Runtime/CompanionApp/CompanionAppServer.cs using Guid(ee59ae9fe5e5d584e997be09d955d0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b5b84f3f8fdcd730aa424cc8c2fe35') in 0.001240 seconds 
+  Import took 0.003200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001670 seconds.
+  path: Assets/Plugins/LiveCapture/Runtime/CompanionApp/CompanionAppServer.cs
+  artifactKey: Guid(ee59ae9fe5e5d584e997be09d955d0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Runtime/CompanionApp/CompanionAppServer.cs using Guid(ee59ae9fe5e5d584e997be09d955d0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b5b84f3f8fdcd730aa424cc8c2fe35') in 0.001138 seconds 
+  Import took 0.002956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.262036 seconds.
+  path: Assets/Plugins/LiveCapture/Runtime/CompanionApp/LiveCaptureServer.cs
+  artifactKey: Guid(8c7d738ebfda70145b13f741db8401fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Runtime/CompanionApp/LiveCaptureServer.cs using Guid(8c7d738ebfda70145b13f741db8401fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba8dcf88bbfad54d8198c65d0f1939b') in 0.001213 seconds 
+  Import took 0.003174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001120 seconds.
+  path: Assets/Plugins/LiveCapture/Runtime/CompanionApp/LiveCaptureServer.cs
+  artifactKey: Guid(8c7d738ebfda70145b13f741db8401fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Runtime/CompanionApp/LiveCaptureServer.cs using Guid(8c7d738ebfda70145b13f741db8401fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba8dcf88bbfad54d8198c65d0f1939b') in 0.001078 seconds 
+  Import took 0.002839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.878191 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(847e73f7b5f015b44906e720e00fdbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(847e73f7b5f015b44906e720e00fdbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfd696b52bf103ae6704085fc685d14') in 0.001226 seconds 
+  Import took 0.003177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.786333 seconds.
+  path: Assets/Resources/LiveCaptureServer.asset
+  artifactKey: Guid(cc564d94a51cc884a881e504c04cc8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LiveCaptureServer.asset using Guid(cc564d94a51cc884a881e504c04cc8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a30129fa17a952ed5ed7ef9df0ecb67') in 0.016526 seconds 
+  Import took 0.018557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.782459 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(c0ddbcc234ee8a443a69d2dfb40bfe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(c0ddbcc234ee8a443a69d2dfb40bfe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e03f0138fac188a5c6505b57f07fd4') in 0.001226 seconds 
+  Import took 0.003213 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002367 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache+<>c.<UpdateCache>b__7_0 (Unity.LiveCapture.VirtualCamera.LensKit k) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:67 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].ToArray () [0x00028] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:67 
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache..cctor () [0x00021] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:28 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache+<>c.<UpdateCache>b__11_0 (Unity.LiveCapture.VirtualCamera.AspectRatioPresets f) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:73 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].MoveNext () [0x00051] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Lookup`2[TKey,TElement].Create[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00031] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0002a] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:72 
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache..cctor () [0x00021] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:34 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache+<>c.<UpdateCache>b__11_0 (Unity.LiveCapture.VirtualCamera.SensorPresets f) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:75 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].MoveNext () [0x00051] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Lookup`2[TKey,TElement].Create[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00031] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0002a] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:74 
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache..cctor () [0x00032] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:37 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Domain Reload Profiling:
+	ReloadAssembly (933ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (803ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (465ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (386ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.0 MB.
+System memory in use after: 79.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 2.210300 ms (FindLiveObjects: 0.107400 ms CreateObjectMapping: 0.035500 ms MarkObjects: 1.987100 ms  DeleteObjects: 0.079600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8.990398 seconds.
+  path: Assets/Scripts/LiveCaptureExample.cs
+  artifactKey: Guid(830ebfc3f8d4c894dbc04f0cabd6710c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LiveCaptureExample.cs using Guid(830ebfc3f8d4c894dbc04f0cabd6710c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cffee8e6e2a472e2f18f4a0f322584') in 0.003077 seconds 
+  Import took 0.004975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.879471 seconds.
+  path: Assets/Resources/Live Capture Server.asset
+  artifactKey: Guid(cc564d94a51cc884a881e504c04cc8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Live Capture Server.asset using Guid(cc564d94a51cc884a881e504c04cc8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d02b27894b1e7c5e6ec40864e16c147') in 0.015041 seconds 
+  Import took 0.017090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.402324 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.001564 seconds 
+  Import took 0.003554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.306621 seconds.
+  path: Assets/Scenes/Example.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Example.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13d6b2e5626be48cbbe0c1e63631b5e') in 0.001452 seconds 
+  Import took 0.003445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.606922 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture
+  artifactKey: Guid(a830d7fba49d15b4b9b661acec27a02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture using Guid(a830d7fba49d15b4b9b661acec27a02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e3e30a95f701ea8d7024c871133651') in 0.001242 seconds 
+  Import took 0.003232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.612854 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1
+  artifactKey: Guid(055b3cb11802eb548ba511942fcbc0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1 using Guid(055b3cb11802eb548ba511942fcbc0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347db9e88fd8ad1fdc3ccbc565c78d52') in 0.001240 seconds 
+  Import took 0.003252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.542551 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample
+  artifactKey: Guid(30452e2a43ba7a549b775bd13669098e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample using Guid(30452e2a43ba7a549b775bd13669098e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1ef300a0758ca793bf5b9a8f6a1a22') in 0.001302 seconds 
+  Import took 0.003298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.125675 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/FaceCaptureSample.unity
+  artifactKey: Guid(96f0a40a5c1a03b429a4a1cd63324626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/FaceCaptureSample.unity using Guid(96f0a40a5c1a03b429a4a1cd63324626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e91e011c0283a7eb7dec2ec23568d6') in 0.001956 seconds 
+  Import took 0.003961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.790616 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/Lenovo.asset
+  artifactKey: Guid(ef22ae95ae8700a42aa1fcc16b1abc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/Lenovo.asset using Guid(ef22ae95ae8700a42aa1fcc16b1abc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dffa783f8b21a30dc277dd978d764a') in 0.008427 seconds 
+  Import took 0.011012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/Lenovo.asset
+  artifactKey: Guid(ef22ae95ae8700a42aa1fcc16b1abc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/Lenovo.asset using Guid(ef22ae95ae8700a42aa1fcc16b1abc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dffa783f8b21a30dc277dd978d764a') in 0.002795 seconds 
+  Import took 0.005096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.286665 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/HeadMapper_2.asset
+  artifactKey: Guid(7171818135190134d8d1e80abfb32602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/HeadMapper_2.asset using Guid(7171818135190134d8d1e80abfb32602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca9fd5c2b22f1127ef2c20d80a6c2e4') in 0.002833 seconds 
+  Import took 0.004989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.802328 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/HeadMapper.asset
+  artifactKey: Guid(455167b52d5111d499bebdf337caf81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/HeadMapper.asset using Guid(455167b52d5111d499bebdf337caf81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77736c91db1a840d4bc54e1bb1cd2ec6') in 0.003977 seconds 
+  Import took 0.006048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005208 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/HeadMapper.asset
+  artifactKey: Guid(455167b52d5111d499bebdf337caf81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/HeadMapper.asset using Guid(455167b52d5111d499bebdf337caf81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77736c91db1a840d4bc54e1bb1cd2ec6') in 0.002589 seconds 
+  Import took 0.004578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.866142 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/SampleHeadMapper.asset
+  artifactKey: Guid(4f90157318100c747a1ade22a6f1cfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/SampleHeadMapper.asset using Guid(4f90157318100c747a1ade22a6f1cfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c948597d62fb7e14801b55f639503c') in 0.002822 seconds 
+  Import took 0.004933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.961264 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/FaceCaptureTimeline.playable
+  artifactKey: Guid(aa7d16ae09c04f743988d0a099381892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/FaceCaptureTimeline.playable using Guid(aa7d16ae09c04f743988d0a099381892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a05f7f8172aa66d043a1eb193b5d13f') in 0.008921 seconds 
+  Import took 0.011017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.945098 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/SampleHead.fbx
+  artifactKey: Guid(0a8e593813f3f7a489a60fca13f3344d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/SampleHead.fbx using Guid(0a8e593813f3f7a489a60fca13f3344d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bff2cdefb6a8631aa84b6a9510a332c') in 0.273738 seconds 
+  Import took 0.276171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096924 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/SampleHeadController.controller
+  artifactKey: Guid(e6f727a8b0be82341bf7ccf34e626bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/SampleHeadController.controller using Guid(e6f727a8b0be82341bf7ccf34e626bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192b47a61800f5fe10157cb0e7a71215') in 0.003424 seconds 
+  Import took 0.005560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001221 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/SampleHeadController.controller
+  artifactKey: Guid(e6f727a8b0be82341bf7ccf34e626bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/SampleHeadController.controller using Guid(e6f727a8b0be82341bf7ccf34e626bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192b47a61800f5fe10157cb0e7a71215') in 0.001610 seconds 
+  Import took 0.003616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.167901 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/SampleHead.prefab
+  artifactKey: Guid(01105ad442a2c6842a902b810878a5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/SampleHead.prefab using Guid(01105ad442a2c6842a902b810878a5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d102c821ea9dff4855b7efb4e7f46b') in 0.022986 seconds 
+  Import took 0.025343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.255232 seconds.
+  path: Assets/Scenes/Example.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Example.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f41bd4a78c8905ef7bc920bed43414') in 0.001646 seconds 
+  Import took 0.003739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.792269 seconds.
+  path: Assets/Plugins/LiveCapture/VideoStreamingServer
+  artifactKey: Guid(ea45c7454b779434f991418a0ccb0bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/VideoStreamingServer using Guid(ea45c7454b779434f991418a0ccb0bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7012732830783d90299da588af3150') in 0.001440 seconds 
+  Import took 0.004119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.405307 seconds.
+  path: Assets/Scenes/Example.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Example.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7f79c1b8b9ac2b91e9ee424f85e6e5') in 0.001577 seconds 
+  Import took 0.003722 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002586 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache+<>c.<UpdateCache>b__7_0 (Unity.LiveCapture.VirtualCamera.LensKit k) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:67 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].ToArray () [0x00028] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:67 
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache..cctor () [0x00021] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:28 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache+<>c.<UpdateCache>b__11_0 (Unity.LiveCapture.VirtualCamera.AspectRatioPresets f) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:73 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].MoveNext () [0x00051] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Lookup`2[TKey,TElement].Create[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00031] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0002a] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:72 
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache..cctor () [0x00021] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:34 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache+<>c.<UpdateCache>b__11_0 (Unity.LiveCapture.VirtualCamera.SensorPresets f) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:75 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].MoveNext () [0x00051] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Lookup`2[TKey,TElement].Create[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00031] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0002a] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:74 
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache..cctor () [0x00032] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:37 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Domain Reload Profiling:
+	ReloadAssembly (959ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (811ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (474ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (395ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2331.
+Total: 2.372400 ms (FindLiveObjects: 0.120300 ms CreateObjectMapping: 0.038700 ms MarkObjects: 2.119300 ms  DeleteObjects: 0.093100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 84.927689 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/SampleHeadMapper.asset
+  artifactKey: Guid(4f90157318100c747a1ade22a6f1cfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/SampleHeadMapper.asset using Guid(4f90157318100c747a1ade22a6f1cfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e5dea61e8abf5a032bcd7582156288') in 0.021029 seconds 
+  Import took 0.023456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008558 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/SampleHeadMapper.asset
+  artifactKey: Guid(4f90157318100c747a1ade22a6f1cfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/SampleHeadMapper.asset using Guid(4f90157318100c747a1ade22a6f1cfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e5dea61e8abf5a032bcd7582156288') in 0.008946 seconds 
+  Import took 0.011267 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002391 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache+<>c.<UpdateCache>b__7_0 (Unity.LiveCapture.VirtualCamera.LensKit k) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:67 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].ToArray () [0x00028] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:67 
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache..cctor () [0x00021] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:28 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache+<>c.<UpdateCache>b__11_0 (Unity.LiveCapture.VirtualCamera.AspectRatioPresets f) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:73 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].MoveNext () [0x00051] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Lookup`2[TKey,TElement].Create[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00031] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0002a] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:72 
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache..cctor () [0x00021] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:34 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache+<>c.<UpdateCache>b__11_0 (Unity.LiveCapture.VirtualCamera.SensorPresets f) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:75 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].MoveNext () [0x00051] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Lookup`2[TKey,TElement].Create[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00031] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0002a] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:74 
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache..cctor () [0x00032] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:37 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Domain Reload Profiling:
+	ReloadAssembly (936ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (806ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (390ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2333.
+Total: 2.242500 ms (FindLiveObjects: 0.105900 ms CreateObjectMapping: 0.034600 ms MarkObjects: 2.016600 ms  DeleteObjects: 0.084700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.883434 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/SampleHeadMapper 1.asset
+  artifactKey: Guid(6d838d4ae3404ee428dcca74c4e5fb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/SampleHeadMapper 1.asset using Guid(6d838d4ae3404ee428dcca74c4e5fb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f966993688502b2459e3bf49ab1fce2') in 0.022233 seconds 
+  Import took 0.024479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.052376 seconds.
+  path: Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/ExampleHeadMapper.asset
+  artifactKey: Guid(6d838d4ae3404ee428dcca74c4e5fb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LiveCapture/Samples/Live Capture/2.0.1/ARKit Face Sample/ExampleHeadMapper.asset using Guid(6d838d4ae3404ee428dcca74c4e5fb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d07118261ad008539b735d6f88bad39') in 0.008557 seconds 
+  Import took 0.010881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.553628 seconds.
+  path: Assets/Resources/Head.prefab
+  artifactKey: Guid(b952b584b933500438f4973314f930d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Head.prefab using Guid(b952b584b933500438f4973314f930d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b225d12a8596fe5eab410c5594b4c1bf') in 0.040959 seconds 
+  Import took 0.043407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.507150 seconds.
+  path: Assets/Resources/ExampleHeadMapper.asset
+  artifactKey: Guid(6d838d4ae3404ee428dcca74c4e5fb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ExampleHeadMapper.asset using Guid(6d838d4ae3404ee428dcca74c4e5fb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7b0bb5f70e13a080114f4796b5c8a0') in 0.007678 seconds 
+  Import took 0.009949 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002406 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache+<>c.<UpdateCache>b__7_0 (Unity.LiveCapture.VirtualCamera.LensKit k) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:67 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].ToArray () [0x00028] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:67 
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache..cctor () [0x00021] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:28 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache+<>c.<UpdateCache>b__11_0 (Unity.LiveCapture.VirtualCamera.AspectRatioPresets f) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:73 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].MoveNext () [0x00051] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Lookup`2[TKey,TElement].Create[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00031] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0002a] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:72 
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache..cctor () [0x00021] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:34 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache+<>c.<UpdateCache>b__11_0 (Unity.LiveCapture.VirtualCamera.SensorPresets f) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:75 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].MoveNext () [0x00051] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Lookup`2[TKey,TElement].Create[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00031] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0002a] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:74 
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache..cctor () [0x00032] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:37 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Domain Reload Profiling:
+	ReloadAssembly (954ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (814ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (477ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (397ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2336.
+Total: 2.257300 ms (FindLiveObjects: 0.111100 ms CreateObjectMapping: 0.036700 ms MarkObjects: 2.020400 ms  DeleteObjects: 0.088300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002397 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache+<>c.<UpdateCache>b__7_0 (Unity.LiveCapture.VirtualCamera.LensKit k) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:67 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].ToArray () [0x00028] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:67 
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache..cctor () [0x00021] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:28 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache+<>c.<UpdateCache>b__11_0 (Unity.LiveCapture.VirtualCamera.AspectRatioPresets f) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:73 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].MoveNext () [0x00051] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Lookup`2[TKey,TElement].Create[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00031] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0002a] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:72 
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache..cctor () [0x00021] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:34 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache+<>c.<UpdateCache>b__11_0 (Unity.LiveCapture.VirtualCamera.SensorPresets f) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:75 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].MoveNext () [0x00051] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Lookup`2[TKey,TElement].Create[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00031] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0002a] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:74 
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache..cctor () [0x00032] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:37 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Domain Reload Profiling:
+	ReloadAssembly (957ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (815ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (474ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (394ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2338.
+Total: 2.263300 ms (FindLiveObjects: 0.118000 ms CreateObjectMapping: 0.040300 ms MarkObjects: 2.019100 ms  DeleteObjects: 0.085100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002449 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache+<>c.<UpdateCache>b__7_0 (Unity.LiveCapture.VirtualCamera.LensKit k) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:67 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].ToArray () [0x00028] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:67 
+  at Unity.LiveCapture.VirtualCamera.Editor.LensKitCache..cctor () [0x00021] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\LensKit\LensKitCache.cs:28 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache+<>c.<UpdateCache>b__11_0 (Unity.LiveCapture.VirtualCamera.AspectRatioPresets f) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:73 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].MoveNext () [0x00051] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Lookup`2[TKey,TElement].Create[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00031] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0002a] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:72 
+  at Unity.LiveCapture.VirtualCamera.Editor.AspectRatioPresetsCache..cctor () [0x00021] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\AspectRatioPresetsCache.cs:34 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache+<>c.<UpdateCache>b__11_0 (Unity.LiveCapture.VirtualCamera.SensorPresets f) [0x00000] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:75 
+  at System.Linq.Enumerable+SelectManySingleSelectorIterator`2[TSource,TResult].MoveNext () [0x00051] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Lookup`2[TKey,TElement].Create[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00031] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0002a] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToLookup[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache.UpdateCache () [0x00007] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:74 
+  at Unity.LiveCapture.VirtualCamera.Editor.SensorPresetsCache..cctor () [0x00032] in D:\UnityProjects\LiveCapture\Assets\Plugins\LiveCapture\Editor\VirtualCamera\Presets\SensorPresetsCache.cs:37 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Domain Reload Profiling:
+	ReloadAssembly (939ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (804ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (472ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (393ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2340.
+Total: 2.245600 ms (FindLiveObjects: 0.107300 ms CreateObjectMapping: 0.033900 ms MarkObjects: 2.017800 ms  DeleteObjects: 0.085900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
